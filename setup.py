@@ -19,7 +19,7 @@ setup(
     keywords = "NLP",
     url = "http://packages.python.org/2DGeo",
     packages=['2dgeo', '2dgeo.test'],
-    install_requires=[],
+    install_requires=['networkx', 'PIL'],
     test_requires=['nose'],
     long_description=read('README.txt'),
     test_suite='2dgeo.test',
